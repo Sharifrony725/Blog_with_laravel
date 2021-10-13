@@ -10,14 +10,8 @@
 | contains the "web" middleware group. Now create something great!
 |
 */
-// Route::get('/', 'FrontController@index');
+Route::get('/', 'Backend\FrontController@index');
+Route::get('/post', 'Backend\FrontController@post');
 
 
-Route::name('frontend.')->namespace('Frontend')->group(function () {
-    Route::get('/', 'FrontController@index')->name('index');
-});
-Route::name('backend.')->namespace('Backend')->prefix('backend')->group(function () {
-    Route::get('/', 'FrontController@index')->name('index');
-    Route::get('/users', 'UsersController@index')->name('users.index');
-    Route::get('/users/{id}', 'UsersController@show')->name('users.show');
-});
+//Route::get('/', 'Backend\FrontController@index');

@@ -11,8 +11,8 @@ class FrontController extends Controller
     {
         return view('index');
     }
-    public function user()
+    public function post()
     {
-        return view('contact');
+        return view('post');
     }
 }

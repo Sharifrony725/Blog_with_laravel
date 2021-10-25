@@ -11,6 +11,8 @@
 |
 */
 Route::get('/', 'Backend\FrontController@index');
+Route::get('/register', 'Backend\FrontController@showRegistrationForm')->name('register');
+Route::post('/register', 'Backend\FrontController@processRegistration');
 Route::get('/post', 'Backend\FrontController@post');
 
 

@@ -12,9 +12,11 @@
             </ol>
             <p>Cras mattis consectetur purus sit amet fermentum. Sed posuere consectetur est at lobortis.</p>
           </div><!-- /.blog-post -->
-
+h2
           <div class="blog-post">
             <h2 class="blog-post-title">Another blog post</h2>
+
+
           </div><!-- /.blog-post -->
 
           <div class="blog-post">

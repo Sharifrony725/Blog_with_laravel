@@ -1,7 +1,9 @@
  <aside class="col-md-4 blog-sidebar">
           <div class="p-3 mb-3 bg-light rounded">
             <h4 class="font-italic">About</h4>
-            <p class="mb-0">Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+            <p class="mb-0">
+             <em>TeckTalk With Sharif</em> : This Blog talks about various topics in web development and software development career as a developer. If web and software development is your passion, then this blogsite is for you.
+            </p>
           </div>
 
           <div class="p-3">

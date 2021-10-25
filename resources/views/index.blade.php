@@ -1,19 +1,11 @@
 @extends('master');
-@section('jumbtron')
+{{-- @section('jumbtron')
 @include('partials.jumbtron')
-@endsection
+@endsection --}}
 @section('content')
- <h3 class="pb-3 mb-4 font-italic border-bottom">
-            From the Firehose
-          </h3>
 
           <div class="blog-post">
             <h2 class="blog-post-title">Sample blog post</h2>
-
-
-
-
-
               <li>Vestibulum id ligula porta felis euismod semper.</li>
               <li>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</li>
               <li>Maecenas sed diam eget risus varius blandit sit amet non magna.</li>
@@ -40,4 +32,4 @@
             <a class="btn btn-outline-primary" href="#">Older</a>
             <a class="btn btn-outline-secondary disabled" href="#">Newer</a>
           </nav>
-@endsection
+  @endsection

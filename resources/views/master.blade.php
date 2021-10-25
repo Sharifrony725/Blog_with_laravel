@@ -17,7 +17,7 @@
 
 
      @include('partials.navbar')
-    @yield('jumbtron')
+     @includeWhen(request()->is('/'),'partials.jumbtron')
 
     <main role="main" class="container">
       <div class="row">
